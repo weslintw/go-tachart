@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/iamjinlei/go-tachart/types"
+	"github.com/weslintw/go-tachart/types"
 )
 
 func init() {

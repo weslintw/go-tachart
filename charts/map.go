@@ -1,10 +1,10 @@
 package charts
 
 import (
-	"github.com/iamjinlei/go-tachart/datasets"
-	"github.com/iamjinlei/go-tachart/opts"
-	"github.com/iamjinlei/go-tachart/render"
-	"github.com/iamjinlei/go-tachart/types"
+	"github.com/weslintw/go-tachart/datasets"
+	"github.com/weslintw/go-tachart/opts"
+	"github.com/weslintw/go-tachart/render"
+	"github.com/weslintw/go-tachart/types"
 )
 
 // Map represents a map chart.

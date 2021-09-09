@@ -1,8 +1,8 @@
 package charts
 
 import (
-	"github.com/iamjinlei/go-tachart/opts"
-	"github.com/iamjinlei/go-tachart/types"
+	"github.com/weslintw/go-tachart/opts"
+	"github.com/weslintw/go-tachart/types"
 )
 
 // Graph represents a graph chart.

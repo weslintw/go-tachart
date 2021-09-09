@@ -7,7 +7,7 @@ import (
 	"io"
 	"regexp"
 
-	tpls "github.com/iamjinlei/go-tachart/templates"
+	tpls "github.com/weslintw/go-tachart/templates"
 )
 
 // Renderer

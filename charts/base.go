@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/iamjinlei/go-tachart/datasets"
-	"github.com/iamjinlei/go-tachart/opts"
-	"github.com/iamjinlei/go-tachart/render"
+	"github.com/weslintw/go-tachart/datasets"
+	"github.com/weslintw/go-tachart/opts"
+	"github.com/weslintw/go-tachart/render"
 )
 
 // GlobalOpts sets the Global options for charts.

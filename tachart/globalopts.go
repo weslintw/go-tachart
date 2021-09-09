@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/iamjinlei/go-tachart/charts"
-	"github.com/iamjinlei/go-tachart/opts"
+	"github.com/weslintw/go-tachart/charts"
+	"github.com/weslintw/go-tachart/opts"
 )
 
 const (
