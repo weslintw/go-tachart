@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"html/template"
 	"math/rand"
-	"path/filepath"
+	"path"
 	"reflect"
 	"regexp"
 	"strconv"
@@ -1111,13 +1111,13 @@ func (opt *Assets) AddCustomizedCSSAssets(assets ...string) {
 func (opt *Assets) Validate(host string) {
 	for i := 0; i < len(opt.JSAssets.Values); i++ {
 		if !strings.HasPrefix(string(opt.JSAssets.Values[i]), host) {
-			opt.JSAssets.Values[i] = template.URL(filepath.Join(host, string(opt.JSAssets.Values[i])))
+			opt.JSAssets.Values[i] = template.URL(path.Join(host, string(opt.JSAssets.Values[i])))
 		}
 	}
 
 	for i := 0; i < len(opt.CSSAssets.Values); i++ {
 		if !strings.HasPrefix(string(opt.CSSAssets.Values[i]), host) {
-			opt.CSSAssets.Values[i] = template.URL(filepath.Join(host, string(opt.CSSAssets.Values[i])))
+			opt.CSSAssets.Values[i] = template.URL(path.Join(host, string(opt.CSSAssets.Values[i])))
 		}
 	}
 }
