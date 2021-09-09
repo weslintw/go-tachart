@@ -1,4 +1,4 @@
-module github.com/iamjinlei/go-tachart
+module github.com/weslintw/go-tachart
 
 go 1.13
 
